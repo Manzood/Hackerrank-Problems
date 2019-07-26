@@ -5,7 +5,7 @@ int start = 0;
 
 int newS[8];
 
-void getinput(int s[3][3])
+int getinput(int s[3][3])
 {
 	int i, j;
 
@@ -19,6 +19,8 @@ void getinput(int s[3][3])
 
 		//printf ("\n");
 	}
+	
+	return 0;
 }
 
 int change (int curr, int targ)
